@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexandre Rodrigues | Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVBAR FIXA -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">AR<span>.</span></div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#experiencia">Experiência</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="menu-btn" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-photo">
+                <img src="https://github.com/alexandremit61-max.png" alt="Alexandre Rodrigues">
+            </div>
+            <h1>Alexandre Rodrigues</h1>
+            <p>Assistente de Infraestrutura 5G | Desenvolvedor Front-end em Formação</p>
+            <div class="hero-social">
+                <a href="https://github.com/alexandremit61-max" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://wa.me/5588996317399" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- SOBRE MIM -->
+        <section id="sobre" class="container">
+            <h2 class="titulo-secao">SOBRE MIM</h2>
+            <div class="sobre-inner">
+                <p>Profissional na <strong>Brisanet Telecomunicações</strong> atualmente atuo com monitoramento de sistemas críticos na área elétrica, realizando análise de eventos, tratativas de incidentes e garantindo a estabilidade das operações.
+
+Possuo experiência em ambientes de alta responsabilidade, onde atenção, agilidade e tomada de decisão são fundamentais para manter o funcionamento contínuo dos sistemas.
+
+Paralelamente, estou em transição para a área de Front-end, estudando e desenvolvendo projetos com HTML, CSS, JavaScript e React, com foco na criação de interfaces modernas, responsivas e funcionais.
+
+Busco oportunidades na área de Front-end, com foco no desenvolvimento de websites modernos, responsivos e de alta performance, transformando ideias em experiências digitais intuitivas, bem estruturadas e eficientes.</p>
+                <div class="skills-flex">
+                    <span class="skill-tag">HTML5 / CSS3</span>
+                    <span class="skill-tag">JavaScript (ES6+)</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">Operações Elétricas</span>
+                    <span class="skill-tag">Infra 5G</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIÊNCIA -->
+        <section id="experiencia" class="container bg-light">
+            <h2 class="titulo-secao">EXPERIÊNCIA</h2>
+            <div class="timeline">
+                <div class="card-exp">
+                    <span class="data">Jul 2024 - Atual</span>
+                    <h3>Assistente de Infraestrutura I - 5G</h3>
+                    <h4>Brisanet Telecomunicações</h4>
+                    <p>Monitoramento de sistemas críticos e suporte operacional Elétrica.</p>
+                </div>
+                <div class="card-exp">
+                    <span class="data">Mar 2024 - Jul 2024</span>
+                    <h3>Operador de Segurança II</h3>
+                    <h4>Brisanet Telecomunicações</h4>
+                    <p>Monitoramento CFTV e controle de acesso (Data Centers).</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJETOS -->
+        <section id="projetos" class="container">
+            <h2 class="titulo-secao">PROJETOS</h2>
+            <div class="projetos-grid">
+                <div class="projeto-card">
+                    <span class="proj-badge">Infraestrutura Elétrica</span>
+                    <h3>Relatório Elétrico</h3>
+                    <p>Geração automatizada de relatórios operacionais.</p>
+                    <a href="https://alexandremit61-max.github.io/opera-es-el-trica/" target="_blank" class="btn-proj">Ver Projeto</a>
+                </div>
+                <div class="projeto-card">
+                    <span class="proj-badge">Fitness</span>
+                    <h3>Plano de Treino</h3>
+                    <p>Aplicação para organização de treinos e metas fitness.</p>
+                    <a href="https://alexandremit61-max.github.io/PLANO-DE-TREINO/" target="_blank" class="btn-proj">Ver Projeto</a>
+                </div>
+                <div class="projeto-card soon">
+                    <i class="fas fa-lock"></i>
+                    <h3>Em Breve</h3>
+                    <p>Dashboard Corporativo</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTATO -->
+        <section id="contato" class="container bg-dark-section">
+            <h2 class="titulo-secao">CONTATO</h2>
+            <div class="contato-grid">
+                <div class="contato-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>alexandre.mit61@gmail.com</p>
+                </div>
+                <div class="contato-item">
+                    <i class="fab fa-whatsapp"></i>
+                    <p>(88) 9 9631-7399</p>
+                </div>
+                <div class="contato-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>São Miguel - RN</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Alexandre Rodrigues</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
